@@ -4,7 +4,7 @@ public class CricketCoach implements Coach {
 	
 	public String getDailyWorkout()
 	{
-		return "Please throw the ball to the player off side!";
+		return "Please throw the Cricket ball to the player off side!";
 	}
 
 }
