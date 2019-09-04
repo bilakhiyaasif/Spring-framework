@@ -15,7 +15,15 @@
     
     <!-- <bean id="myCoach" class="io.bilakhiya.springproject.CricketCoach"></bean>  -->
     <!-- <bean id="myCoach" class="io.bilakhiya.springproject.BaseballCoach"></bean> -->
-    <bean id="myCoach" class="io.bilakhiya.springproject.HockeyCoach"></bean>
+    <!-- <bean id="myCoach" class="io.bilakhiya.springproject.HockeyCoach"></bean> -->
+    
+    
+   <bean id="myFortune" class="io.bilakhiya.springproject.HappyFortuneService">
+   </bean>
+   
+   <bean id="myCoach" class="io.bilakhiya.springproject.TrackCoach">
+   <constructor-arg ref="myFortune" />
+   </bean>
     
 </beans>
 

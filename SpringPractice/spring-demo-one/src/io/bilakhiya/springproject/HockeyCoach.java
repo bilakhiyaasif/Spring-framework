@@ -6,4 +6,10 @@ public class HockeyCoach implements Coach{
 	{
 		return "Spin the Ball with the help of Hockey Cross Cut!";
 	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

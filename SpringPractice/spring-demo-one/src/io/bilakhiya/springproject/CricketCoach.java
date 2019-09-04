@@ -7,4 +7,10 @@ public class CricketCoach implements Coach {
 		return "Please throw the Cricket ball to the player off side!";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return "CricketCoach_getDailyFortune()";
+	}
+
 }
