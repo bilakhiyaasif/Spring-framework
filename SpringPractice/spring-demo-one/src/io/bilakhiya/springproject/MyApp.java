@@ -10,10 +10,10 @@ public class MyApp {
 		
 		//reference varable using interface
 		//Coach theCoach = new BaseballCoach();
-		//Coach theCoach = new TrackCoach();
+		Coach theCoach = new TrackCoach();
 		
 		//use the object
-		//System.out.println(theCoach.getDailyWorkout());
+		System.out.println(theCoach.getDailyWorkout());
 	}
 
 }
